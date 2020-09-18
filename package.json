@@ -1,0 +1,58 @@
+{
+  "name": "sehatselamanya-cms",
+  "description": "sapper-sehatselamanya-cms-app",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.0.5",
+    "body-parser": "~1.18.2",
+    "build": "^0.1.4",
+    "compression": "^1.7.1",
+    "express": "^4.17.1",
+    "method-override": "~2.3.10",
+    "prismic-javascript": "^2.1.1",
+    "vercel-sapper": "^0.43.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sapper": "^0.27.16",
+    "svelte": "^3.0.0",
+    "svelte-loader": "^2.9.0",
+    "webpack": "^4.7.0"
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehatselamanya/cms.git"
+  },
+  "keywords": [
+    "jual",
+    "obat",
+    "herbal",
+    "alami",
+    "ambeien",
+    "wasir",
+    "sipilis",
+    "gonore",
+    "pembesarpenis",
+    "keputihan",
+    "asamurat",
+    "kolestrol",
+    "jantung",
+    "ginjal"
+  ],
+  "author": "rhk-progaming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sehatselamanya/cms/issues"
+  },
+  "homepage": "https://github.com/sehatselamanya/cms#readme"
+}

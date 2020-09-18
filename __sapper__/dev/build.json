@@ -1,0 +1,20 @@
+{
+  "bundler": "webpack",
+  "shimport": null,
+  "assets": {
+    "about": "b981d1d9a095d77c51cb/about.about.js",
+    "about~blog_$slug": "b981d1d9a095d77c51cb/about~blog_$slug.about~blog_$slug.js",
+    "blog": "b981d1d9a095d77c51cb/blog.blog.js",
+    "blog_$slug": "b981d1d9a095d77c51cb/blog_$slug.blog_$slug.js",
+    "index": "b981d1d9a095d77c51cb/index.index.js",
+    "main": "b981d1d9a095d77c51cb/main.js"
+  },
+  "css": {
+    "chunks": {
+      "index.svelte": [],
+      "about.svelte": [],
+      "blog/index.svelte": [],
+      "blog/[slug].svelte": []
+    }
+  }
+}
