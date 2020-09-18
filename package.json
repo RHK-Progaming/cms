@@ -1,6 +1,6 @@
 {
   "name": "sehatselamanya-cms",
-  "description": "sapper-sehatselamanya-cms-app",
+  "description": "sapper-sehatselamanya-cms",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
